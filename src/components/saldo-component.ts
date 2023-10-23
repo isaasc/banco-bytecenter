@@ -7,7 +7,6 @@ renderizarSaldo();
 function renderizarSaldo(): void {
     if (saldoElement) {
         saldoElement.textContent = formatarMoeda(Conta.getSaldo());
-        Conta.agruparTransacoes()
     }
 }
 

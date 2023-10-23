@@ -5,7 +5,6 @@ renderizarSaldo();
 function renderizarSaldo() {
     if (saldoElement) {
         saldoElement.textContent = formatarMoeda(Conta.getSaldo());
-        Conta.agruparTransacoes();
     }
 }
 const SaldoComponent = {
